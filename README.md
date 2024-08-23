@@ -76,14 +76,19 @@ elif 25 <= bmi < 30:
 else:
     print('Obesity')
 
-9-
-print("Cylinder Volume Calculator (V = πr²h)")
+9-Problem No 1:
+Calculate Your Age Based on the Current Year and Your Birth Year
+Hint: Calculate your age by subtracting your birth year from the current year.
+Formula: Age = Current Year - Birth Year
+
+print("Age Calculator")
+birth_year = int(input("Enter your Birth-Year: "))
+current_year = int(input("Enter your Current-Year: "))
+print("Your age is ", (current_year - birth_year))print("Cylinder Volume Calculator (V = πr²h)")
 radius = int(input("Enter your radius: "))
 height = int(input("Enter your height: "))
 pie_value = 3.1416
 print("Volume of Cylinder is: ", pie_value * (radius ** 2) * height)
-
-
 
 
 
